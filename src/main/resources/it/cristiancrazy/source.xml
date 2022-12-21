@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-model href="./source.dtd" type="application/xml-dtd"?>
+<!-- Occupati di anni 15+ che escono di casa per andare a lavoro, per mezzo di trasporto e per tempo -->
+<data>
+    <year value="2021">
+        <age value="15-19">
+            <walk>25.1</walk>
+            <means>
+                <total>74.9</total>
+                <train>3.2</train>
+                <tram>1.7</tram>
+                <metro>3.2</metro>
+                <pullman-n>3.3</pullman-n>
+                <pullman-c>0</pullman-c>
+                <car-d>35.8</car-d>
+                <car-p>23.5</car-p>
+                <motorcycle>7.8</motorcycle>
+                <bike>1.8</bike>
+            </means>
+            <times>
+                <time val="15min">41.8</time>
+                <time val="31min">15.7</time>
+            </times>
+        </age>
+        <age value="20-24">
+            <walk>8.8</walk>
+            <means>
+                <total>91.2</total>
+                <train>2.3</train>
+                <tram>2.3</tram>
+                <metro>0.8</metro>
+                <pullman-n>1.7</pullman-n>
+                <pullman-c>0.1</pullman-c>
+                <car-d>68.5</car-d>
+                <car-p>11.6</car-p>
+                <motorcycle>1.6</motorcycle>
+                <bike>3.1</bike>
+            </means>
+            <times>
+                <time val="15min">35.2</time>
+                <time val="31min">13.3</time>
+            </times>
+        </age>
+        <age value="25-34">
+            <walk>12.3</walk>
+            <means>
+                <total>87.7</total>
+                <train>3.2</train>
+                <tram>4.3</tram>
+                <metro>3.6</metro>
+                <pullman-n>1.2</pullman-n>
+                <pullman-c>0.4</pullman-c>
+                <car-d>69.9</car-d>
+                <car-p>5.7</car-p>
+                <motorcycle>3</motorcycle>
+                <bike>3.7</bike>
+            </means>
+            <times>
+                <time val="15min">35.2</time>
+                <time val="31min">15.7</time>
+            </times>
+        </age>
+        <age value="35-44">
+            <walk>10.7</walk>
+            <means>
+                <total>89.3</total>
+                <train>2.6</train>
+                <tram>2.5</tram>
+                <metro>2.5</metro>
+                <pullman-n>1.2</pullman-n>
+                <pullman-c>0.2</pullman-c>
+                <car-d>75.3</car-d>
+                <car-p>4.5</car-p>
+                <motorcycle>3.8</motorcycle>
+                <bike>3.6</bike>
+            </means>
+            <times>
+                <time val="15min">35.3</time>
+                <time val="31min">15.3</time>
+            </times>
+        </age>
+        <age value="45-54">
+            <walk>12</walk>
+            <means>
+                <total>88</total>
+                <train>2.7</train>
+                <tram>3.5</tram>
+                <metro>2.6</metro>
+                <pullman-n>1.5</pullman-n>
+                <pullman-c>0.3</pullman-c>
+                <car-d>72.2</car-d>
+                <car-p>3.9</car-p>
+                <motorcycle>4.5</motorcycle>
+                <bike>3.3</bike>
+            </means>
+            <times>
+                <time val="15min">37.4</time>
+                <time val="31min">16.3</time>
+            </times>
+        </age>
+        <age value="55-64">
+            <walk>14</walk>
+            <means>
+                <total>86</total>
+                <train>2.4</train>
+                <tram>4.2</tram>
+                <metro>2.5</metro>
+                <pullman-n>1.1</pullman-n>
+                <pullman-c>0.1</pullman-c>
+                <car-d>69.8</car-d>
+                <car-p>4.4</car-p>
+                <motorcycle>3.8</motorcycle>
+                <bike>3.2</bike>
+            </means>
+            <times>
+                <time val="15min">37.3</time>
+                <time val="31min">15.7</time>
+            </times>
+        </age>
+        <age value="65">
+            <walk>19.8</walk>
+            <means>
+                <total>80.2</total>
+                <train>1.3</train>
+                <tram>6</tram>
+                <metro>4.4</metro>
+                <pullman-n>0.8</pullman-n>
+                <pullman-c>0</pullman-c>
+                <car-d>65.4</car-d>
+                <car-p>3.7</car-p>
+                <motorcycle>2.3</motorcycle>
+                <bike>1.2</bike>
+            </means>
+            <times>
+                <time val="15min">41.8</time>
+                <time val="31min">12.4</time>
+            </times>
+        </age>
+    </year>
+    <year value="2020">
+        <age value="15-19">
+            <walk>22</walk>
+            <means>
+                <total>78</total>
+                <train>2.4</train>
+                <tram>5.6</tram>
+                <metro>3</metro>
+                <pullman-n>7.8</pullman-n>
+                <pullman-c>0</pullman-c>
+                <car-d>22.5</car-d>
+                <car-p>35.8</car-p>
+                <motorcycle>4.7</motorcycle>
+                <bike>4.8</bike>
+            </means>
+            <times>
+                <time val="15min">52.9</time>
+                <time val="31min">12.7</time>
+            </times>
+        </age>
+        <age value="20-24">
+            <walk>10.8</walk>
+            <means>
+                <total>89.2</total>
+                <train>2.5</train>
+                <tram>7.1</tram>
+                <metro>2.9</metro>
+                <pullman-n>1.7</pullman-n>
+                <pullman-c>0.7</pullman-c>
+                <car-d>61.9</car-d>
+                <car-p>14.6</car-p>
+                <motorcycle>3.1</motorcycle>
+                <bike>2.6</bike>
+            </means>
+            <times>
+                <time val="15min">38.4</time>
+                <time val="31min">10</time>
+            </times>
+        </age>
+        <age value="25-34">
+            <walk>9.8</walk>
+            <means>
+                <total>90.2</total>
+                <train>4.5</train>
+                <tram>6.5</tram>
+                <metro>6.4</metro>
+                <pullman-n>1.8</pullman-n>
+                <pullman-c>0.4</pullman-c>
+                <car-d>67.5</car-d>
+                <car-p>6.2</car-p>
+                <motorcycle>3.8</motorcycle>
+                <bike>3.5</bike>
+            </means>
+            <times>
+                <time val="15min">33.4</time>
+                <time val="31min">16.1</time>
+            </times>
+        </age>
+        <age value="35-44">
+            <walk>10.4</walk>
+            <means>
+                <total>89.6</total>
+                <train>3</train>
+                <tram>3.5</tram>
+                <metro>3</metro>
+                <pullman-n>1.4</pullman-n>
+                <pullman-c>0.4</pullman-c>
+                <car-d>74.6</car-d>
+                <car-p>4.3</car-p>
+                <motorcycle>3.6</motorcycle>
+                <bike>3.2</bike>
+            </means>
+            <times>
+                <time val="15min">35.2</time>
+                <time val="31min">17.1</time>
+            </times>
+        </age>
+        <age value="45-54">
+            <walk>12</walk>
+            <means>
+                <total>88</total>
+                <train>2.7</train>
+                <tram>3.8</tram>
+                <metro>3.6</metro>
+                <pullman-n>1.5</pullman-n>
+                <pullman-c>0.2</pullman-c>
+                <car-d>72.4</car-d>
+                <car-p>3.9</car-p>
+                <motorcycle>3.8</motorcycle>
+                <bike>3.1</bike>
+            </means>
+            <times>
+                <time val="15min">37</time>
+                <time val="31min">15</time>
+            </times>
+        </age>
+        <age value="55-64">
+            <walk>13.3</walk>
+            <means>
+                <total>86.7</total>
+                <train>3.3</train>
+                <tram>4.7</tram>
+                <metro>3.3</metro>
+                <pullman-n>1.8</pullman-n>
+                <pullman-c>0.3</pullman-c>
+                <car-d>69.2</car-d>
+                <car-p>4.1</car-p>
+                <motorcycle>3.9</motorcycle>
+                <bike>3.1</bike>
+            </means>
+            <times>
+                <time val="15min">38.5</time>
+                <time val="31min">15.7</time>
+            </times>
+        </age>
+        <age value="65">
+            <walk>22.8</walk>
+            <means>
+                <total>77.2</total>
+                <train>0.5</train>
+                <tram>4.3</tram>
+                <metro>1.7</metro>
+                <pullman-n>1</pullman-n>
+                <pullman-c>0</pullman-c>
+                <car-d>64.2</car-d>
+                <car-p>4.3</car-p>
+                <motorcycle>4.4</motorcycle>
+                <bike>1.4</bike>
+            </means>
+            <times>
+                <time val="15min">42.2</time>
+                <time val="31min">13.4</time>
+            </times>
+        </age>
+    </year>
+</data>

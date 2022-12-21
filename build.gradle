@@ -1,0 +1,25 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+group 'it.cristiancrazy'
+version '1.0'
+
+application {
+    // specifica dell' entry-point per il plugin 'application' di Gradle
+    mainClass = "it.cristiancrazy.Main"
+}
+
+jar {
+    // Escludi dipendenze duplicate nell'esportazione
+    duplicatesStrategy = duplicatesStrategy.EXCLUDE
+
+    // Impostazione attributi del MANIFEST.MF e esportazione dipendenze
+    manifest {
+        attributes("Main-Class":"it.cristiancrazy.Main", "Manifest-Version":"1.0")
+    }
+    from {
+        configurations.runtimeClasspath.collect { it.isDirectory() ? it : zipTree(it) }
+    }
+}

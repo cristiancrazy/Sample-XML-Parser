@@ -1,0 +1,21 @@
+<!ELEMENT data (year)*>
+<!ELEMENT year (age)*>
+<!ELEMENT age (walk, means, times)>
+<!ELEMENT walk (#PCDATA)>
+<!ELEMENT means (total, train, tram, metro, pullman-n, pullman-c, car-d, car-p, motorcycle, bike)>
+<!ELEMENT total (#PCDATA)>
+<!ELEMENT train (#PCDATA)>
+<!ELEMENT tram (#PCDATA)>
+<!ELEMENT metro (#PCDATA)>
+<!ELEMENT pullman-n (#PCDATA)>
+<!ELEMENT pullman-c (#PCDATA)>
+<!ELEMENT car-d (#PCDATA)>
+<!ELEMENT car-p (#PCDATA)>
+<!ELEMENT motorcycle (#PCDATA)>
+<!ELEMENT bike (#PCDATA)>
+<!ELEMENT times (time)*>
+<!ELEMENT time (#PCDATA)>
+
+<!ATTLIST year value CDATA #REQUIRED>
+<!ATTLIST age value (15-19|20-24|25-34|35-44|45-54|55-64|65) #REQUIRED>
+<!ATTLIST time val (15min|31min) #REQUIRED>

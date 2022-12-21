@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+    <xs:element name="data">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" maxOccurs="unbounded" ref="year"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="year">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" maxOccurs="unbounded" ref="age"/>
+            </xs:sequence>
+            <xs:attribute name="value" use="required"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="age">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="walk"/>
+                <xs:element ref="means"/>
+                <xs:element ref="times"/>
+            </xs:sequence>
+            <xs:attribute name="value" use="required">
+                <xs:simpleType>
+                    <xs:restriction base="xs:token">
+                        <xs:enumeration value="15-19"/>
+                        <xs:enumeration value="20-24"/>
+                        <xs:enumeration value="25-34"/>
+                        <xs:enumeration value="35-44"/>
+                        <xs:enumeration value="45-54"/>
+                        <xs:enumeration value="55-64"/>
+                        <xs:enumeration value="65"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:attribute>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="walk" type="xs:string"/>
+    <xs:element name="means">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="total"/>
+                <xs:element ref="train"/>
+                <xs:element ref="tram"/>
+                <xs:element ref="metro"/>
+                <xs:element ref="pullman-n"/>
+                <xs:element ref="pullman-c"/>
+                <xs:element ref="car-d"/>
+                <xs:element ref="car-p"/>
+                <xs:element ref="motorcycle"/>
+                <xs:element ref="bike"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="total" type="xs:string"/>
+    <xs:element name="train" type="xs:string"/>
+    <xs:element name="tram" type="xs:string"/>
+    <xs:element name="metro" type="xs:string"/>
+    <xs:element name="pullman-n" type="xs:string"/>
+    <xs:element name="pullman-c" type="xs:string"/>
+    <xs:element name="car-d" type="xs:string"/>
+    <xs:element name="car-p" type="xs:string"/>
+    <xs:element name="motorcycle" type="xs:string"/>
+    <xs:element name="bike" type="xs:string"/>
+    <xs:element name="times">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" maxOccurs="unbounded" ref="time"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="time">
+        <xs:complexType mixed="true">
+            <xs:attribute name="val" use="required">
+                <xs:simpleType>
+                    <xs:restriction base="xs:token">
+                        <xs:enumeration value="15min"/>
+                        <xs:enumeration value="31min"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:attribute>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
